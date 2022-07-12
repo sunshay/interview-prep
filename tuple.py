@@ -3,9 +3,9 @@
 # Sorting the List of Tuples:[('Social sciences', 82), ('English', 88), ('Science', 90), ('Maths', 97)]
 
 
- a = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)] 
- b  = (sorted a,reverse = True)
- print(b)
+a = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)] 
+a.sort(key = lambda x: x[1])
+print(a)
  
 # a = sorted([6,5,3,7,2,4,1])
 # print(a)
